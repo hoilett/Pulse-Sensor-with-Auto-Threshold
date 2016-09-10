@@ -4,6 +4,10 @@ PCB_Designs/*
 !*.sch
 !*.brd
 !*.zip
+!PCB_Designs/PCBOrders
+
+
+
 
 
 # Ignore Mac DS_Store files in all directories
