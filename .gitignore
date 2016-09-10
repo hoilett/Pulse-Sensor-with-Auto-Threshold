@@ -7,8 +7,5 @@ PCB_Designs/*
 !PCB_Designs/PCBOrders
 
 
-
-
-
 # Ignore Mac DS_Store files in all directories
 .DS_Store
