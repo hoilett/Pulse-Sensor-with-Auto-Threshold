@@ -4,7 +4,7 @@ PCB_Designs/*
 !*.sch
 !*.brd
 !*.zip
-!PCB_Designs/PCBOrders
+!PCB_Designs/PulseFit-S
 
 
 # Ignore Mac DS_Store files in all directories
