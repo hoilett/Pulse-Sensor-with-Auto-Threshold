@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11814,9 +11814,9 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 </classes>
 <parts>
 <part name="GAIN" library="analog-devices" deviceset="AD8609" device="RU" value="MCP6004"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0402" value="1uF"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0402" value="470n"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0402" value="32k"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0402" value="1u"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0402" value="470n"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0402" value="1.5M"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0402" value="1.5M"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R0402" value="3.3M"/>
@@ -11874,7 +11874,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10u"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0402" value="1u"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0402" value="470n"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0402" value="1.5M"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0402" value="1.5M"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11928,7 +11928,7 @@ Made in the @IICEPD
 
 Creative Commons License
 Attribution-NonCommercial-
-ShareAlike 3.0 Unported </text>
+ShareAlike 4.0 Unported </text>
 <wire x1="-30.48" y1="147.32" x2="345.44" y2="147.32" width="1.27" layer="94" style="longdash"/>
 <wire x1="345.44" y1="147.32" x2="345.44" y2="-20.32" width="1.27" layer="94" style="longdash"/>
 <wire x1="345.44" y1="-20.32" x2="-30.48" y2="-20.32" width="1.27" layer="94" style="longdash"/>
@@ -11940,6 +11940,7 @@ ShareAlike 3.0 Unported </text>
 <text x="-15.24" y="129.54" size="7.62" layer="90">PulseFit V.4.0</text>
 <wire x1="193.04" y1="88.9" x2="193.04" y2="48.26" width="0.508" layer="90" style="shortdash"/>
 <wire x1="193.04" y1="48.26" x2="139.7" y2="48.26" width="0.508" layer="90" style="shortdash"/>
+<text x="200.66" y="139.7" size="3.81" layer="90">NOTE: This is NOT a medical device</text>
 </plain>
 <instances>
 <instance part="GAIN" gate="A" x="35.56" y="76.2" rot="MR180"/>
@@ -11947,8 +11948,8 @@ ShareAlike 3.0 Unported </text>
 <instance part="GAIN" gate="C" x="121.92" y="76.2"/>
 <instance part="GAIN" gate="D" x="167.64" y="81.28"/>
 <instance part="GAIN" gate="P" x="35.56" y="10.16"/>
-<instance part="C1" gate="G$1" x="35.56" y="96.52" rot="R90"/>
-<instance part="R1" gate="G$1" x="38.1" y="88.9" rot="R180"/>
+<instance part="C1" gate="G$1" x="35.56" y="93.98" rot="R90"/>
+<instance part="R1" gate="G$1" x="38.1" y="86.36" rot="R180"/>
 <instance part="C4" gate="G$1" x="101.6" y="78.74" rot="R90"/>
 <instance part="R8" gate="G$1" x="109.22" y="86.36" rot="R270"/>
 <instance part="R9" gate="G$1" x="109.22" y="71.12" rot="R270"/>
@@ -12009,7 +12010,7 @@ ShareAlike 3.0 Unported </text>
 <instance part="SUPPLY11" gate="G$1" x="25.4" y="71.12"/>
 <instance part="C3" gate="G$1" x="114.3" y="35.56" rot="R180"/>
 <instance part="GND1" gate="1" x="114.3" y="27.94"/>
-<instance part="C2" gate="G$1" x="60.96" y="81.28" rot="R90"/>
+<instance part="C2" gate="G$1" x="58.42" y="81.28" rot="R90"/>
 <instance part="R3" gate="G$1" x="68.58" y="88.9" rot="R270"/>
 <instance part="R4" gate="G$1" x="68.58" y="73.66" rot="R270"/>
 <instance part="GND5" gate="1" x="68.58" y="63.5"/>
@@ -12028,13 +12029,13 @@ ShareAlike 3.0 Unported </text>
 <wire x1="30.48" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="78.74" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="88.9" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <junction x="27.94" y="78.74"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="96.52" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<junction x="27.94" y="88.9"/>
+<wire x1="33.02" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="93.98" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<junction x="27.94" y="86.36"/>
 <wire x1="12.7" y1="81.28" x2="12.7" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="PD" gate="G$1" pin="A"/>
 </segment>
@@ -12042,18 +12043,18 @@ ShareAlike 3.0 Unported </text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="88.9" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="86.36" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GAIN" gate="A" pin="OUT"/>
 <wire x1="48.26" y1="81.28" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="96.52" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
-<junction x="48.26" y="88.9"/>
+<wire x1="40.64" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="93.98" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<junction x="48.26" y="86.36"/>
 <junction x="48.26" y="81.28"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12477,7 +12478,7 @@ ShareAlike 3.0 Unported </text>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="78.74" x2="68.58" y2="81.28" width="0.1524" layer="91"/>

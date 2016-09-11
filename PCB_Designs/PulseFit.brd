@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1710,11 +1710,11 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="resistor" package="C0402" value="1uF" x="72.136" y="13.8938" smashed="yes" rot="MR90">
+<element name="C1" library="resistor" package="C0402" value="470n" x="72.136" y="13.8938" smashed="yes" rot="MR90">
 <attribute name="NAME" x="72.7202" y="15.2908" size="0.762" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="70.231" y="13.2588" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C4" library="resistor" package="C0402" value="1u" x="65.7098" y="2.7686" smashed="yes" rot="MR0">
+<element name="C4" library="resistor" package="C0402" value="470n" x="65.7098" y="2.7686" smashed="yes" rot="MR0">
 <attribute name="NAME" x="67.8942" y="2.5654" size="0.762" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="66.3448" y="0.8636" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -1861,7 +1861,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="55.88" y="6.9596" size="0.762" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="54.9148" y="7.6454" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C2" library="resistor" package="C0402" value="1u" x="66.2178" y="6.985" smashed="yes" rot="MR180">
+<element name="C2" library="resistor" package="C0402" value="470n" x="66.2178" y="6.985" smashed="yes" rot="MR180">
 <attribute name="NAME" x="64.1096" y="6.4008" size="0.762" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="65.5828" y="8.89" size="1.27" layer="28" rot="MR180"/>
 </element>
